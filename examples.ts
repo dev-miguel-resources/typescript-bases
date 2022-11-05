@@ -4,7 +4,7 @@ class Medic {
 
     name: string
     lastname!: string // obligatorio pasar el valor del tipo correspondiente (required) con la salvedad de no aceptar ni null ni undefined (!)
-    codMed: number // number || undefined || null  si se ocupa el operador (?)
+    codMed?: number // number || undefined || null  si se ocupa el operador (?)
     //readonly fullname: string
     // height: any / puede aceptar valores de cualquier tipo o cualquier cosa 
 
