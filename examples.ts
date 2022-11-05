@@ -1,5 +1,4 @@
-// Arq. Hexagonal
-// Domain
+// Examples TS
 class Medic {
 
     name: string
