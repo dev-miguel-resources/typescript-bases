@@ -8,9 +8,10 @@ class Medic {
     //readonly fullname: string
     // height: any / puede aceptar valores de cualquier tipo o cualquier cosa 
 
-    // bad practice: dejar declarado en desorden el orden los parámetros, instanciar objetos sobrecargando el constructor
-    // bad practice: ocupar tipos any
-    // admisible en el constructor: inicializar tus propiedades de clase, definir super clases y validaciones de instanciación
+    // sugerencias: priorizar el orden de parámetros y tratar de evitar el exceso de interfaces para todo (saber donde ocuparlas: saber donde ocupar una clase, una interfaz, una clase abstracta)
+    // sugerencias: evitar complejizar el código por tratar de hacerlo mas pro (tener claridad dependiendo de la solución)
+    // bad practice: exagerar el uso de any, tratar de evitarlos siempre, es importante saber modelar
+    // recomendaciones constructor: inicializar tus propiedades de clase, definir super clases, validaciones de instanciación e inyecciones de dependencias
 
     // forma 1
     /*constructor(name: string, lastname: string, codMed: number) {
