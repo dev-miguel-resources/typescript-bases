@@ -8,9 +8,9 @@ class Medic {
     //readonly fullname: string
     // height: any / puede aceptar valores de cualquier tipo o cualquier cosa 
 
-    // bad practice: dejar declarado en desorden el orden los parámetros, instanciar objetos y sobrecargar el constructor
+    // bad practice: dejar declarado en desorden el orden los parámetros, instanciar objetos sobrecargando el constructor
     // bad practice: ocupar tipos any
-    // admisible en el constructor: inicializar tus props, super/hereder/ validaciones
+    // admisible en el constructor: inicializar tus propiedades de clase, definir super clases y validaciones de instanciación
 
     // forma 1
     /*constructor(name: string, lastname: string, codMed: number) {
