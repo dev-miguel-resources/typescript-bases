@@ -1,4 +1,4 @@
-// Examples TS
+// Examples Bases TS
 class Medic {
 
     name: string
